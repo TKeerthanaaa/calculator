@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Roboto:wght@300;400;500;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+:root {
+  --clr-white: white;
+  --clr-bright-blue: hsl(220, 65%, 47%);
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.clac-body{
+  width: 18rem;
+  height: 45vh;
+  margin: 7rem 0;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--clr-white);
+  box-shadow: 0.2rem 0.2rem 0.2rem 0.2rem rgb(247, 241, 241);
+}
+
+.clac-screen{
+  width: 15rem;
+  height: 3rem;
+  border: 1px solid rgb(248, 244, 244);
+  margin: 1rem 1.5rem;
+}
+
+.plus, .minus, .multi, .divi{
+  width: 3rem;
+  margin-left: 1.1rem;
+  padding: 0.2rem;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+.nums{
+  display: flex;
+  flex-direction: column;
+  padding: 0.9rem;
+  gap: 1rem;
+}
+
+.nine, .eight, .seven{
+  width: 3.1rem;
+  margin-left: 0.7rem;
+  padding: 0.2rem;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.six, .five, .four, .three, .two, .one, .zero, .dot, .c{
+  width: 3.1rem;
+  margin-left: 0.7rem;
+  padding: 0.2rem;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.equals{
+  margin-left: 14rem;
+  margin-top: -10.3rem;
+}
+
+.equal{
+  width: 3rem;
+  height: 9rem;
+  background-color: rgb(75, 139, 203);
+  border: 1px solid rgb(75, 139, 203);
+  color: white;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
